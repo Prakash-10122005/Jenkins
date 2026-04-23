@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #07012e; /* very dark */
+  color: white;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Title */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(90deg, #8e2de2, #c77dff); /* violet gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mood Buttons */
+.moods button {
+  margin: 10px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(15, 15, 15);
+  background: linear-gradient(45deg, #00c853, #00ff95);
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.moods button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 20px #00ff95;
+}
+
+/* Active (Selected Mood) */
+.moods button.active {
+  box-shadow: 0 0 25px #00ff95;
+  transform: scale(1.2);
+  background: linear-gradient(45deg, #00ff95, #00c853);
+}
+
+/* Songs Grid */
+.songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Song Card */
+.song {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 300px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  transition: 0.3s;
+}
+
+.song:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00ff95;
+}
+
+/* Song Title */
+.song p {
+  font-weight: bold;
+  font-size: 18px;
+  background: linear-gradient(90deg, #51fff6, #eeeeee); /* grey gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Audio Player */
+audio {
+  width: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎧 Tamil Mood Music 🎧</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tamil Mood Music</h1>
+
+    <div class="moods">
+      <button onclick="getMusic('happy', this)">Happy Songs</button>
+      <button onclick="getMusic('sad', this)">Sad Songs</button>
+      <button onclick="getMusic('relax', this)">Relax Songs</button>
+      <button onclick="getMusic('energy', this)">Energy Songs</button>
+    </div>
+
+    <div id="songs" class="songs"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
