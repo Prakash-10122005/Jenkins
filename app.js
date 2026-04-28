@@ -12,7 +12,7 @@ const musicData = {
   relax: [
     { title: "Naan Un", file: "music/relax1.mp3" },
     { title: "Adiye Azhage", file: "music/relax2.mp3" },
-    { title: "Kathaipoma", file: "music/relax3.mp3" }
+    { title: "Kadhaipoma", file: "music/relax3.mp3" }
   ],
   energy: [
     { title: "Illuminati", file: "music/energy1.mp3" },
