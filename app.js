@@ -25,15 +25,9 @@ function getMusic(mood, btn) {
   const songsDiv = document.getElementById("songs");
   songsDiv.innerHTML = "";
 
-  // Remove active class from all buttons
-  document.querySelectorAll(".moods button").forEach(b => {
-    b.classList.remove("active");
-  });
-
-  // Add active to clicked button
+  document.querySelectorAll(".moods button").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
 
-  // Load songs
   musicData[mood].forEach(song => {
     songsDiv.innerHTML += `
       <div class="song">
@@ -44,4 +38,9 @@ function getMusic(mood, btn) {
       </div>
     `;
   });
+}
+
+function logout() {
+  sessionStorage.removeItem("loggedIn");
+  window.location.href = "login.html";
 }

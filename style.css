@@ -3,11 +3,10 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #07012e; /* very dark */
+  background: #060124;
   color: white;
 }
 
-/* Container */
 .container {
   text-align: center;
   padding: 30px;
@@ -15,6 +14,7 @@ body {
 
 /* Title */
 h1 {
+  text-align: center;
   font-family: 'Orbitron', sans-serif;
   font-size: 3rem;
   background: linear-gradient(90deg, #8e2de2, #c77dff); /* violet gradient */
@@ -22,7 +22,28 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* Mood Buttons */
+/* Logout */
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(45deg, #3270f7, #4016ff);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  box-shadow: 0 0 20px #3587f3;
+}
+
+/* Mood buttons */
+.moods {
+  text-align: center;
+}
+
 .moods button {
   margin: 10px;
   padding: 12px 25px;
@@ -35,27 +56,24 @@ h1 {
   transition: 0.3s;
 }
 
-/* Hover Effect */
 .moods button:hover {
   transform: scale(1.15);
   box-shadow: 0 0 20px #00ff95;
 }
 
-/* Active (Selected Mood) */
 .moods button.active {
   box-shadow: 0 0 25px #00ff95;
   transform: scale(1.2);
   background: linear-gradient(45deg, #00ff95, #00c853);
 }
 
-/* Songs Grid */
+/* Songs */
 .songs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/* Song Card */
 .song {
   margin: 15px;
   padding: 15px;
@@ -71,7 +89,7 @@ h1 {
   box-shadow: 0 0 20px #00ff95;
 }
 
-/* Song Title */
+
 .song p {
   font-weight: bold;
   font-size: 18px;
@@ -80,8 +98,38 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* Audio Player */
 audio {
   width: 100%;
   margin-top: 10px;
+}
+
+/* Login */
+.login-container {
+  width: 300px;
+  margin: 150px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  text-align: center;
+}
+
+.login-container input {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #8e2de2, #c77dff); /* violet gradient */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#error {
+  color: red;
 }
