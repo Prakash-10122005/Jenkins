@@ -1,23 +1,23 @@
 const musicData = {
   happy: [
-    { title: "Arabic Kuthu", file: "music/happy1.mp3" },
-    { title: "Vaathi Coming", file: "music/happy2.mp3" },
-    { title: "Don'u Don'u Don'u", file: "music/happy3.mp3" }
+    { title: "Arabic Kuthu", file: "music/Arabic Kuthu.mp3" },
+    { title: "Vaathi Coming", file: "music/Vaathi Coming.mp3" },
+    { title: "Don'u Don'u Don'u", file: "music/Don'u Don'u Don'u.mp3" }
   ],
   sad: [
-    { title: "Maruvaarthai", file: "music/sad1.mp3" },
-    { title: "Po Nee Po", file: "music/sad2.mp3" },
-    { title: "Maname Maname", file: "music/sad3.mp3" }
+    { title: "Maruvaarthai", file: "music/Maruvaarthai.mp3" },
+    { title: "Po Nee Po", file: "music/Po Nee Po.mp3" },
+    { title: "Maname Maname", file: "music/Maname Maname.mp3" }
   ],
   relax: [
-    { title: "Naan Un", file: "music/relax1.mp3" },
-    { title: "Adiye Azhage", file: "music/relax2.mp3" },
-    { title: "Kadhaipoma", file: "music/relax3.mp3" }
+    { title: "Naan Un", file: "music/Naan Un.mp3" },
+    { title: "Adiye Azhage", file: "music/Adiye Azhage.mp3" },
+    { title: "Kadhaipoma", file: "music/Kadhaipoma.mp3" }
   ],
   energy: [
-    { title: "Illuminati", file: "music/energy1.mp3" },
-    { title: "Naattu Koothu", file: "music/energy2.mp3" },
-    { title: "Aaya Sher", file: "music/energy3.mp3" }
+    { title: "Illuminati", file: "music/Illuminati.mp3" },
+    { title: "Naattu Koothu", file: "music/Naattu Koothu.mp3" },
+    { title: "Aaya Sher", file: "music/Aaya Sher.mp3" }
   ]
 };
 
