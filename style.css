@@ -125,9 +125,13 @@ audio {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
-  background: linear-gradient(90deg, #8e2de2, #c77dff); /* violet gradient */
+  background: linear-gradient(90deg, #881be7, #7a4a9e); /* violet gradient */
   color: rgb(0, 0, 0);
   cursor: pointer;
+}
+
+.login-container button:hover{
+  box-shadow: 0 0 20px #b13ff3;
 }
 
 #error {
